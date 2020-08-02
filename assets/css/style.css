@@ -1,0 +1,94 @@
+.flexbox-container {
+  display: flex;
+ flex-direction: row;
+  background-color: aquamarine; 
+  flex-wrap: wrap; 
+}
+
+body {
+ 
+  background-color: hotpink;
+  
+}
+
+.jumbotron {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: chartreuse;
+  border: aquamarine 20px solid;
+ border-radius: 10%;
+ 
+}
+
+h1 {
+
+  color: rgb(177, 156, 128);
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+  justify-items: center;
+}
+
+img {
+  width: 850px; 
+  margin-top: 25px;
+  border-radius: 30%;
+  border: aquamarine 15px solid;
+  align-content: center;
+  margin-left:  40px;
+
+}
+
+ul {
+
+
+  font-size: larger;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.navbar-brand {
+
+  font-size: 45px;
+}
+
+.navbar-brand:hover{
+  color: crimson;
+  background-position-x: initial;
+
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 15px solid powderblue;
+  border-radius: 8%;
+  background-color: peru;
+  flex-basis: 3;
+}
+
+
+.flexbox-item-1 {
+  min-height: 100px;
+  flex-grow: 2;
+  flex-basis: 1;
+  border-radius: 8%;
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+  flex-grow: 0;
+  flex-basis: 0;
+  border-radius: 8%;
+}
+
+p {
+
+    margin-top: 25px;
+    font-size: 27px;
+    color: rgb(177, 156, 128);
+    font-family: 'Shadows Into Light', cursive;
+}
+
+footer {
+  position: sticky
+  
+}
